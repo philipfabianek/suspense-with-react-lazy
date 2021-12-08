@@ -1,23 +1,22 @@
 import React, { Suspense } from 'react';
 
-import logo from './logo.svg';
 import './App.css';
 
-const ComponentToLoad = React.lazy(() => {
+const OtherComponent = React.lazy(() => {
   // Using Promise + setTimeout to simulate a longer delay,
   // normally we just return the import
   return new Promise(resolve => {
     setTimeout(() => {
-      resolve(import('./ComponentToLoad'));
-    }, 1200);
+      resolve(import('./OtherComponent'));
+    }, 1000);
   });
 });
 
 const App = () => {
   return (
     <div className="App">
-      <Suspense fallback={<img src={logo} className="App-logo" alt="logo" />}>
-        <ComponentToLoad />
+      <Suspense fallback={<img src="/loading-icon.svg" className="App-logo" alt="logo" />}>
+        <OtherComponent />
       </Suspense>
     </div>
   );
