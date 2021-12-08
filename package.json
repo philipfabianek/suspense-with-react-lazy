@@ -1,8 +1,8 @@
 {
   "name": "suspense-with-react-lazy",
   "dependencies": {
-    "react": "^18.0.0-beta-4729ff6d1-20211202",
-    "react-dom": "^18.0.0-beta-4729ff6d1-20211202",
+    "react": "next",
+    "react-dom": "next",
     "react-scripts": "^4.0.3"
   },
   "scripts": {
