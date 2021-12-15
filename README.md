@@ -9,11 +9,11 @@ This is an example of how you can use Suspense with React.lazy().
    git clone https://github.com/philipfabianek/suspense-with-react-lazy.git
    ```
 2. Install NPM packages
-* npm
+Using NPM:
    ```sh
    npm install
    ```
-* yarn
+Using Yarn:
    ```sh
    yarn
    ```
