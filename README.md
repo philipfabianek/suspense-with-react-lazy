@@ -8,14 +8,11 @@ This is an example of how you can use Suspense with React.lazy().
    ```sh
    git clone https://github.com/philipfabianek/suspense-with-react-lazy.git
    ```
-2. Install NPM packages
-  Using NPM:
+2. Install NPM packages using your favorite package manager
    ```sh
    npm install
-   ```
-  Using Yarn:
-   ```sh
    yarn
+   pnpm install
    ```
 3. Start project
    ```sh
